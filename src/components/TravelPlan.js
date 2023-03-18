@@ -1,9 +1,3 @@
-// ключ АРІ на pexel
-// 563492ad6f91700001000001a26335d0c8c04ee685199d18aa01767b
-
-// endpoint: 
-// https://api.pexels.com/v1/
-
 import { useEffect, useState } from 'react';
 import { TravelItem } from './TravelItem';
 import { getAllItems, postItem, checkItem, editItem, deleteItem, uncheckItem } from './FetchItem';
