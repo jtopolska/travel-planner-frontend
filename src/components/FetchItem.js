@@ -3,6 +3,7 @@ import axios from './axios';
 export const getAllItems = ( setAllItems ) => {
     axios.get('/')
     .then(({data}) => {
+        console.log('get data', data)
         setAllItems(data);
     })
 }
